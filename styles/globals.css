@@ -1,0 +1,23 @@
+:root {
+  /* Light Mode Colors */
+  --bg-primary: #ffffff;
+  --text-primary: #2c3e50;
+  --bg-secondary: #f4f4f4;
+  --accent-color: #3498db;
+  --border-color: #ddd;
+}
+
+:root.dark {
+  /* Dark Mode Colors */
+  --bg-primary: #121212;
+  --text-primary: #e0e0e0;
+  --bg-secondary: #1e1e1e;
+  --accent-color: #4CAF50;
+  --border-color: #444;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+}

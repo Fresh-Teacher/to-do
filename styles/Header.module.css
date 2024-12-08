@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navItem {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navItem:hover {
+    color: var(--accent-color);
+  }
+  
+  .themeToggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .themeToggle:hover {
+    transform: scale(1.1);
+  }

@@ -1,0 +1,56 @@
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .inputContainer {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .addButton {
+    padding: 0.5rem 1rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #2980b9;
+  }
+  
+  .todoList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todoItem {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
